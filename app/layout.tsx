@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import "terminal.css";
 import Header from "./header";
 import Footer from "./footer";
+
+const jetBrainsMono = JetBrains_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "sakkke.dev",
@@ -16,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="terminal">
+      <body className={`${jetBrainsMono.className} terminal`}>
         <Header />
         {children}
         <hr />
