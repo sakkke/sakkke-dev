@@ -19,6 +19,7 @@ export default function RootLayout({
       <body className="terminal">
         <Header />
         {children}
+        <hr />
         <Footer />
       </body>
     </html>
