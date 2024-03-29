@@ -20,4 +20,5 @@
 
 .terminal-prompt::after {
   background-color: var(--ctp-macchiato-rosewater);
+  width: 1ch;
 }
