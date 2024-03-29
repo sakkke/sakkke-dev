@@ -1,0 +1,13 @@
+@import "@catppuccin/palette/css/catppuccin.css";
+
+:root {
+  --background-color: var(--ctp-macchiato-base) !important;
+  --font-color: var(--ctp-macchiato-text) !important;
+  --invert-font-color: var(--ctp-macchiato-base) !important;
+  --primary-color: var(--ctp-macchiato-lavender) !important;
+  --secondary-color: var(--ctp-macchiato-blue) !important;
+  --error-color: var(--ctp-macchiato-red) !important;
+  --progress-bar-background: var(--ctp-macchiato-green) !important;
+  --progress-bar-fill: var(--ctp-macchiato-text) !important;
+  --code-bg-color: var(--ctp-macchiato-base) !important;
+}
