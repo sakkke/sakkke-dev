@@ -12,6 +12,24 @@
   --code-bg-color: var(--ctp-macchiato-base);
 }
 
+@keyframes cursor {
+  0% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .terminal-prompt::before {
   color: var(--ctp-macchiato-green);
   font-family: 'JetBrains Mono', monospace;
