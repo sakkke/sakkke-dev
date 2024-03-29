@@ -15,4 +15,5 @@
 .terminal-prompt::before {
   color: var(--ctp-macchiato-green);
   font-family: 'JetBrains Mono', monospace;
+  font-weight: bold;
 }
