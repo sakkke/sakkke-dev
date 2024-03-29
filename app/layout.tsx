@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${jetBrainsMono.className} terminal`}>
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col min-h-dvh">
           <div className="container">
             <Header />
           </div>
