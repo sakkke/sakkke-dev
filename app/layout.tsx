@@ -20,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${jetBrainsMono.className} terminal`}>
-        <Header />
+        <div className="container">
+          <Header />
+        </div>
         {children}
         <hr />
         <Footer />
