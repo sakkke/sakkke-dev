@@ -17,3 +17,7 @@
   font-family: 'JetBrains Mono', monospace;
   font-weight: bold;
 }
+
+.terminal-prompt::after {
+  background-color: var(--ctp-macchiato-rosewater);
+}
