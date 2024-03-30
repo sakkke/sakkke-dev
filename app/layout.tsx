@@ -4,6 +4,7 @@ import "./globals.css";
 import "./override.css";
 import Header from "./header";
 import Footer from "./footer";
+import ShareButtons from "./components/ShareButtons";
 
 const jetBrainsMono = JetBrains_Mono({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function RootLayout({
             <div className="grow">
               <main>{children}</main>
             </div>
+            <ShareButtons />
             <hr />
             <Footer />
           </div>
