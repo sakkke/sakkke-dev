@@ -1,5 +1,10 @@
 import MdxLayout from "../components/mdx-layout";
 
+export const metadata = {
+  created: "2024-03-30",
+  updated: "2024-03-31",
+};
+
 # skills
 
 ## programming languages
@@ -94,5 +99,9 @@ import MdxLayout from "../components/mdx-layout";
 - npm
 
 export default function MDXPage({ children }) {
-  return <MdxLayout>{children}</MdxLayout>;
+  return (
+    <MdxLayout created={metadata.created} updated={metadata.updated}>
+      {children}
+    </MdxLayout>
+  );
 }

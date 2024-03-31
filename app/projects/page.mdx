@@ -1,5 +1,10 @@
 import MdxLayout from "../components/mdx-layout";
 
+export const metadata = {
+  created: "2024-03-30",
+  updated: "2024-03-31",
+};
+
 # projects
 
 ## personal websites
@@ -40,5 +45,9 @@ import MdxLayout from "../components/mdx-layout";
 - **[nvim-lazyvim](https://github.com/sakkke/nvim-lazyvim)**: sakkke's LazyVim config
 
 export default function MDXPage({ children }) {
-  return <MdxLayout>{children}</MdxLayout>;
+  return (
+    <MdxLayout created={metadata.created} updated={metadata.updated}>
+      {children}
+    </MdxLayout>
+  );
 }

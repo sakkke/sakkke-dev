@@ -1,5 +1,10 @@
 import MdxLayout from "../components/mdx-layout";
 
+export const metadata = {
+  created: "2024-03-30",
+  updated: "2024-03-31",
+};
+
 # contact
 
 i'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
@@ -14,5 +19,9 @@ feel free to reach out to me at:
 let's connect and create something amazing together!
 
 export default function MDXPage({ children }) {
-  return <MdxLayout>{children}</MdxLayout>;
+  return (
+    <MdxLayout created={metadata.created} updated={metadata.updated}>
+      {children}
+    </MdxLayout>
+  );
 }

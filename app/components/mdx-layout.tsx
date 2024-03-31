@@ -1,9 +1,25 @@
 import { ReactNode } from "react";
 
-interface Props {
+interface Metadata {
+  created: string;
+  updated: string;
+}
+
+interface Props extends Metadata {
   children: ReactNode;
 }
 
-export default function MdxLayout({ children }: Props) {
-  return <main>{children}</main>;
+export default function MdxLayout({ children, created, updated }: Props) {
+  return (
+    <>
+      <header>
+        <p>
+          created: {created}
+          <br />
+          updated: {updated}
+        </p>
+      </header>
+      <main>{children}</main>
+    </>
+  );
 }

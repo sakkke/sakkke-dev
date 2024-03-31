@@ -1,5 +1,10 @@
 import MdxLayout from "../components/mdx-layout";
 
+export const metadata = {
+  created: "2024-03-29",
+  updated: "2024-03-31",
+};
+
 # about me
 
 hi! i'm sakkke, a random os creator from Kanagawa.
@@ -93,5 +98,9 @@ i'd love to hear from you.
 for more details on how to reach me, please visit the [contact](/contact) page.
 
 export default function MDXPage({ children }) {
-  return <MdxLayout>{children}</MdxLayout>;
+  return (
+    <MdxLayout created={metadata.created} updated={metadata.updated}>
+      {children}
+    </MdxLayout>
+  );
 }
