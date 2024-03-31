@@ -13,7 +13,7 @@ export default function MdxLayout({ children, created, updated }: Props) {
   return (
     <>
       <header>
-        <p>
+        <p className="text-[var(--ctp-macchiato-overlay2)]">
           created: {created}
           <br />
           updated: {updated}
