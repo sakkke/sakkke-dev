@@ -1,3 +1,5 @@
+import MdxLayout from "./components/mdx-layout";
+
 # sakkke
 
 this is my minimal profile :D
@@ -16,3 +18,7 @@ i'm currently doing the following:
 
 my to-do list is always overflowing :P
 if you are interested, please contact me at [sakkke@sakkke.dev](mailto:sakkke@sakkke.dev)!
+
+export default function MDXPage({ children }) {
+  return <MdxLayout>{children}</MdxLayout>;
+}

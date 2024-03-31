@@ -1,3 +1,5 @@
+import MdxLayout from "../components/mdx-layout";
+
 # contact
 
 i'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
@@ -10,3 +12,7 @@ feel free to reach out to me at:
 - Zenn: [sakkke](https://zenn.dev/sakkke)
 
 let's connect and create something amazing together!
+
+export default function MDXPage({ children }) {
+  return <MdxLayout>{children}</MdxLayout>;
+}

@@ -26,9 +26,7 @@ export default function RootLayout({
             <Header />
           </div>
           <div className="container flex flex-col grow">
-            <div className="grow">
-              <main>{children}</main>
-            </div>
+            <div className="grow">{children}</div>
             <ShareButtons />
             <hr />
             <Footer />

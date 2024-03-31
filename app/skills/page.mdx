@@ -1,3 +1,5 @@
+import MdxLayout from "../components/mdx-layout";
+
 # skills
 
 ## programming languages
@@ -90,3 +92,7 @@
 - WSL 2
 - Z Shell
 - npm
+
+export default function MDXPage({ children }) {
+  return <MdxLayout>{children}</MdxLayout>;
+}

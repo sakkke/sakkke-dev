@@ -1,3 +1,5 @@
+import MdxLayout from "../components/mdx-layout";
+
 # projects
 
 ## personal websites
@@ -36,3 +38,7 @@
 
 - **[dotfiles](https://github.com/sakkke/dotfiles)**: sakkke's dotfiles
 - **[nvim-lazyvim](https://github.com/sakkke/nvim-lazyvim)**: sakkke's LazyVim config
+
+export default function MDXPage({ children }) {
+  return <MdxLayout>{children}</MdxLayout>;
+}
