@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import "terminal.css";
 import "./override.css";
 import Header from "./header";
 import Footer from "./footer";
