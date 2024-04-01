@@ -5,6 +5,7 @@ import "./override.css";
 import Header from "./header";
 import Footer from "./footer";
 import ShareButtons from "./components/ShareButtons";
+import { Analytics } from "@vercel/analytics/react";
 
 const jetBrainsMono = JetBrains_Mono({ subsets: ["latin"] });
 
@@ -36,6 +37,7 @@ export default function RootLayout({
             <Footer />
           </div>
         </div>
+        <Analytics />
       </body>
     </html>
   );
