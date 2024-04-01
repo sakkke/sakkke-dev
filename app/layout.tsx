@@ -25,7 +25,7 @@ export default function RootLayout({
           <div className="container w-full">
             <Header />
           </div>
-          <div className="container flex flex-col grow">
+          <div className="container flex flex-col grow w-full">
             <div className="grow">{children}</div>
             <div className="flex flex-row-reverse">
               <div className="flex gap-2">
