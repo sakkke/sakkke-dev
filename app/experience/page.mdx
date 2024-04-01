@@ -1,0 +1,38 @@
+import MdxLayout from "../components/mdx-layout";
+
+export const metadata = {
+  title: "sakkke.dev - experience",
+  description: "sakkke's experience.",
+  created: "2024-04-01",
+  updated: "2024-04-01",
+};
+
+# experience
+
+## port maintainer at Catppuccin (2022-present)
+
+- **overview**: as a member of the Catppuccin community, i am responsible for maintaining and developing the Catppuccin theme for a specific technology platform.
+- **responsibilities**:
+  - developing and maintaining platform-specific theme settings and style guides.
+  - managing issues and responding to community feedback on GitHub.
+  - updating and improving project documentation.
+- **achievements**: for more details on my achievements with Catppuccin, please visit [my projects page](/projects#catppuccin).
+
+## OSS contributions
+
+- [catppuccin/gtk](https://github.com/catppuccin/gtk)
+- [catppuccin/palette](https://github.com/catppuccin/palette)
+- [catppuccin/catppuccin](https://github.com/catppuccin/catppuccin)
+- [0l1v3rr/github-readme-tech-stack](https://github.com/0l1v3rr/github-readme-tech-stack)
+- [nk412/pyfzf](https://github.com/nk412/pyfzf)
+- [pocco81/auto-save.nvim](https://github.com/pocco81/auto-save.nvim)
+- [skywind3000/asyncrun.extra](https://github.com/skywind3000/asyncrun.extra)
+- [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
+
+export default function MDXPage({ children }) {
+  return (
+    <MdxLayout created={metadata.created} updated={metadata.updated}>
+      {children}
+    </MdxLayout>
+  );
+}
