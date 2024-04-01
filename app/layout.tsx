@@ -27,7 +27,11 @@ export default function RootLayout({
           </div>
           <div className="container flex flex-col grow">
             <div className="grow">{children}</div>
-            <ShareButtons />
+            <div className="flex flex-row-reverse">
+              <div className="flex gap-2">
+                <ShareButtons />
+              </div>
+            </div>
             <hr />
             <Footer />
           </div>
