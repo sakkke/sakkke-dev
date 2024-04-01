@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${jetBrainsMono.className} terminal`}>
         <div className="flex flex-col min-h-dvh">
-          <div className="container">
+          <div className="container w-full">
             <Header />
           </div>
           <div className="container flex flex-col grow">
