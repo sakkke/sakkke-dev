@@ -4,7 +4,6 @@ import "./globals.css";
 import "./override.css";
 import Header from "./header";
 import Footer from "./footer";
-import ShareButtons from "./components/ShareButtons";
 import { Analytics } from "@vercel/analytics/react";
 
 const jetBrainsMono = JetBrains_Mono({ subsets: ["latin"] });
@@ -28,13 +27,8 @@ export default function RootLayout({
               <Header />
             </div>
           </div>
-          <div className="container flex flex-col grow">
+          <div className="flex flex-col grow">
             <div className="grow">{children}</div>
-            <div className="flex flex-row-reverse">
-              <div className="flex gap-2">
-                <ShareButtons />
-              </div>
-            </div>
           </div>
           <div className="bg-[var(--ctp-macchiato-mantle)]">
             <div className="container">
