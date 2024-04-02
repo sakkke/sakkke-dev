@@ -15,11 +15,11 @@ export default function MdxLayout({ children, created, updated }: Props) {
     <>
       <div className="bg-[var(--ctp-macchiato-surface0)]">
         <header className="container">
-          <p className="text-[var(--ctp-macchiato-overlay2)]">
+          <span className="text-[var(--ctp-macchiato-overlay2)]">
             created: {created}
             <br />
             updated: {updated}
-          </p>
+          </span>
         </header>
       </div>
       <div className="container">

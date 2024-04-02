@@ -8,13 +8,12 @@ const user = {
 export default function Footer() {
   return (
     <footer>
-      <p>
+      <span>
         <a href={user.github}>GitHub</a> | <a href={user.zenn}>Zenn</a>
-      </p>
-      <p>
+        <br />
         copyright &copy; 2024-present {user.name} &lt;
         <a href={`mailto:${user.email}`}>{user.email}</a>&gt;
-      </p>
+      </span>
     </footer>
   );
 }
