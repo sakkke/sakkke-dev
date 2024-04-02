@@ -24,9 +24,8 @@ export default function MdxLayout({ children, created, updated }: Props) {
       </div>
       <div className="container">
         <main>{children}</main>
-        <div className="flex flex-row-reverse">
-          <ShareButtons />
-        </div>
+        <hr />
+        <ShareButtons />
       </div>
     </>
   );
