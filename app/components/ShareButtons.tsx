@@ -15,7 +15,7 @@ export default function ShareButtons() {
     url = window.location.href;
   }
   return (
-    <div className="flex gap-2">
+    <div className="flex gap-2 mb-[var(--global-line-height)]">
       <EmailShareButton url={url}>
         <EmailIcon size={32} round={true} />
       </EmailShareButton>
