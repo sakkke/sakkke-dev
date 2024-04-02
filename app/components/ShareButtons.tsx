@@ -15,7 +15,7 @@ export default function ShareButtons() {
     url = window.location.href;
   }
   return (
-    <>
+    <div className="flex gap-2">
       <EmailShareButton url={url}>
         <EmailIcon size={32} round={true} />
       </EmailShareButton>
@@ -25,6 +25,6 @@ export default function ShareButtons() {
       <TwitterShareButton url={url}>
         <XIcon size={32} round={true} />
       </TwitterShareButton>
-    </>
+    </div>
   );
 }
