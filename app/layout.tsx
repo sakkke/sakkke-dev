@@ -23,8 +23,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${jetBrainsMono.className} terminal`}>
         <div className="flex flex-col min-h-dvh">
-          <div className="container w-full">
-            <Header />
+          <div className="bg-[var(--ctp-macchiato-mantle)]">
+            <div className="container w-full">
+              <Header />
+            </div>
           </div>
           <div className="container flex flex-col grow w-full">
             <div className="grow">{children}</div>
