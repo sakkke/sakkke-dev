@@ -7,7 +7,10 @@ const user = {
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="pb-[calc(var(--global-space)*2)]">
+      <div className="logo">
+        <a href="/">sakkke.dev</a>
+      </div>
       <span>
         <a href={user.github}>GitHub</a> | <a href={user.zenn}>Zenn</a>
         <br />
