@@ -4,10 +4,8 @@ export const metadata = {
   title: "sakkke.dev - projects",
   description: "Projects involving sakkke.",
   created: "2024-03-30",
-  updated: "2024-04-01",
+  updated: "2024-04-02",
 };
-
-# projects
 
 ## personal websites
 
@@ -48,7 +46,11 @@ export const metadata = {
 
 export default function MDXPage({ children }) {
   return (
-    <MdxLayout created={metadata.created} updated={metadata.updated}>
+    <MdxLayout
+      created={metadata.created}
+      title={metadata.title}
+      updated={metadata.updated}
+    >
       {children}
     </MdxLayout>
   );

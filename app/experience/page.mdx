@@ -4,10 +4,8 @@ export const metadata = {
   title: "sakkke.dev - experience",
   description: "sakkke's experience.",
   created: "2024-04-01",
-  updated: "2024-04-01",
+  updated: "2024-04-02",
 };
-
-# experience
 
 ## port maintainer at Catppuccin (2022-present)
 
@@ -31,7 +29,11 @@ export const metadata = {
 
 export default function MDXPage({ children }) {
   return (
-    <MdxLayout created={metadata.created} updated={metadata.updated}>
+    <MdxLayout
+      created={metadata.created}
+      title={metadata.title}
+      updated={metadata.updated}
+    >
       {children}
     </MdxLayout>
   );

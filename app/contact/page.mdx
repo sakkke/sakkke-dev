@@ -4,10 +4,8 @@ export const metadata = {
   title: "sakkke.dev - contact",
   description: "sakkke's contact.",
   created: "2024-03-30",
-  updated: "2024-04-01",
+  updated: "2024-04-02",
 };
-
-# contact
 
 i'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
 feel free to reach out to me at:
@@ -20,7 +18,11 @@ let's connect and create something amazing together!
 
 export default function MDXPage({ children }) {
   return (
-    <MdxLayout created={metadata.created} updated={metadata.updated}>
+    <MdxLayout
+      created={metadata.created}
+      title={metadata.title}
+      updated={metadata.updated}
+    >
       {children}
     </MdxLayout>
   );

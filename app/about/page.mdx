@@ -4,10 +4,8 @@ export const metadata = {
   title: "sakkke.dev - about",
   description: "sakkke's about page.",
   created: "2024-03-29",
-  updated: "2024-04-01",
+  updated: "2024-04-02",
 };
-
-# about me
 
 hi! i'm sakkke, a random os creator from Kanagawa.
 i have a passion for creating an immutable os and i'm currently focused on creating multimedia.
@@ -101,7 +99,11 @@ for more details on how to reach me, please visit the [contact](/contact) page.
 
 export default function MDXPage({ children }) {
   return (
-    <MdxLayout created={metadata.created} updated={metadata.updated}>
+    <MdxLayout
+      created={metadata.created}
+      title={metadata.title}
+      updated={metadata.updated}
+    >
       {children}
     </MdxLayout>
   );

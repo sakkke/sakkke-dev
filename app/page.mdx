@@ -4,10 +4,8 @@ export const metadata = {
   title: "sakkke's home page",
   description: "sakkke's home page.",
   created: "2024-03-29",
-  updated: "2024-04-01",
+  updated: "2024-04-02",
 };
-
-# sakkke
 
 this is my minimal profile :D
 
@@ -28,7 +26,11 @@ if you are interested, please contact me at [sakkke@sakkke.dev](mailto:sakkke@sa
 
 export default function MDXPage({ children }) {
   return (
-    <MdxLayout created={metadata.created} updated={metadata.updated}>
+    <MdxLayout
+      created={metadata.created}
+      title={metadata.title}
+      updated={metadata.updated}
+    >
       {children}
     </MdxLayout>
   );
