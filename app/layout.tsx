@@ -24,11 +24,11 @@ export default function RootLayout({
       <body className={`${jetBrainsMono.className} terminal`}>
         <div className="flex flex-col min-h-dvh">
           <div className="bg-[var(--ctp-macchiato-mantle)]">
-            <div className="container w-full">
+            <div className="container">
               <Header />
             </div>
           </div>
-          <div className="container flex flex-col grow w-full">
+          <div className="container flex flex-col grow">
             <div className="grow">{children}</div>
             <div className="flex flex-row-reverse">
               <div className="flex gap-2">
