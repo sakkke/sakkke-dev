@@ -35,8 +35,11 @@ export default function RootLayout({
                 <ShareButtons />
               </div>
             </div>
-            <hr />
-            <Footer />
+          </div>
+          <div className="bg-[var(--ctp-macchiato-mantle)]">
+            <div className="container">
+              <Footer />
+            </div>
           </div>
         </div>
         <Analytics />
