@@ -56,6 +56,14 @@ export default function Header() {
               contact
             </a>
           </li>
+          <li>
+            <a
+              href="/social"
+              className={`menu-item ${pathname === "/social" ? "active" : ""}`}
+            >
+              social
+            </a>
+          </li>
         </ul>
       </nav>
     </div>
