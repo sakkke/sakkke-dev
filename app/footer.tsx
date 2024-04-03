@@ -5,14 +5,14 @@ const user = {
 
 export default function Footer() {
   return (
-    <footer className="pb-[calc(var(--global-space)*2)]">
+    <footer>
       <div className="logo">
         <a href="/">sakkke.dev</a>
       </div>
-      <span>
+      <p>
         copyright &copy; 2024-present {user.name} &lt;
         <a href={`mailto:${user.email}`}>{user.email}</a>&gt;
-      </span>
+      </p>
     </footer>
   );
 }
