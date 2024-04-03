@@ -34,6 +34,14 @@ export default function Header() {
           </li>
           <li>
             <a
+              href="/tools"
+              className={`menu-item ${pathname === "/tools" ? "active" : ""}`}
+            >
+              tools
+            </a>
+          </li>
+          <li>
+            <a
               href="/skills"
               className={`menu-item ${pathname === "/skills" ? "active" : ""}`}
             >
