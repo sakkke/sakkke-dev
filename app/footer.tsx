@@ -13,6 +13,9 @@ export default function Footer() {
         copyright &copy; 2024-present {user.name} &lt;
         <a href={`mailto:${user.email}`}>{user.email}</a>&gt;
       </p>
+      <p>
+        <a href="https://vercel.com/">powered by Vercel</a>
+      </p>
     </footer>
   );
 }
