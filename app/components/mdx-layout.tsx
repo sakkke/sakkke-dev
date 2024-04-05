@@ -30,8 +30,8 @@ export default function MdxLayout({
         </header>
       </div>
       <div>
-        <div className="container h-full">
-          <main>{children}</main>
+        <div className="container flex flex-col h-full">
+          <main className="grow">{children}</main>
           <hr />
           <ShareButtons />
         </div>
