@@ -89,6 +89,16 @@ export default function Footer() {
             </li>
           </ul>
         </nav>
+        <nav>
+          <h2>support me</h2>
+          <ul>
+            <li>
+              <Link href="https://www.buymeacoffee.com/sakkke">
+                Buy Me a Coffee
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </div>
       <div className="container">
         <nav>
