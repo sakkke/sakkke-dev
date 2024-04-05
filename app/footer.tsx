@@ -50,6 +50,9 @@ export default function Footer() {
               <Link href="/illustrations">illustrations</Link>
             </li>
             <li>
+              <Link href="/podcast">podcast</Link>
+            </li>
+            <li>
               <Link href="/photos">photos</Link>
             </li>
           </ul>
