@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export default function Header() {
@@ -9,68 +10,68 @@ export default function Header() {
     <div className="terminal-nav">
       <header className="terminal-logo">
         <div className="logo terminal-prompt">
-          <a href="/" className="no-style">
+          <Link href="/" className="no-style">
             sakkke.dev
-          </a>
+          </Link>
         </div>
       </header>
       <nav className="terminal-menu">
         <ul>
           <li>
-            <a
+            <Link
               href="/about"
               className={`menu-item ${pathname === "/about" ? "active" : ""}`}
             >
               about me
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/projects"
               className={`menu-item ${pathname === "/projects" ? "active" : ""}`}
             >
               projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/tools"
               className={`menu-item ${pathname === "/tools" ? "active" : ""}`}
             >
               tools
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/skills"
               className={`menu-item ${pathname === "/skills" ? "active" : ""}`}
             >
               skills
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/experience"
               className={`menu-item ${pathname === "/experience" ? "active" : ""}`}
             >
               experience
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/contact"
               className={`menu-item ${pathname === "/contact" ? "active" : ""}`}
             >
               contact
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/social"
               className={`menu-item ${pathname === "/social" ? "active" : ""}`}
             >
               social
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
