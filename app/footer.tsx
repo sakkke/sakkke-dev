@@ -23,6 +23,9 @@ export default function Footer() {
           view source on GitHub
         </Link>
       </p>
+      <p>
+        <Link href="https://catppuccin.com/">colors from Catppuccin</Link>
+      </p>
     </footer>
   );
 }
