@@ -38,7 +38,7 @@ export default function Repo({ owner, repo }: Props) {
     <>
       <strong>
         <Link href={`https://github.com/${owner}/${repo}`}>
-          {repo}/{owner}
+          {owner}/{repo}
         </Link>
       </strong>
       :{" "}
