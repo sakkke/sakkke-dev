@@ -84,9 +84,9 @@ export default function Footer() {
       <div className="container">
         <nav>
           <h2>information</h2>
-          <div className="logo">
+          <p>
             <Link href="/">sakkke.dev</Link>
-          </div>
+          </p>
           <p>
             <Link href="https://github.com/sakkke/sakkke-dev">
               view source on GitHub
