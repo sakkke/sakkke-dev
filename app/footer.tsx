@@ -88,6 +88,11 @@ export default function Footer() {
             <Link href="/">sakkke.dev</Link>
           </div>
           <p>
+            <Link href="https://github.com/sakkke/sakkke-dev">
+              view source on GitHub
+            </Link>
+          </p>
+          <p>
             copyright &copy; 2024-present {user.name} &lt;
             <Link href={`mailto:${user.email}`}>{user.email}</Link>&gt;
           </p>
@@ -96,11 +101,6 @@ export default function Footer() {
           <h2>credits</h2>
           <p>
             <Link href="https://vercel.com/">powered by Vercel</Link>
-          </p>
-          <p>
-            <Link href="https://github.com/sakkke/sakkke-dev">
-              view source on GitHub
-            </Link>
           </p>
           <p>
             <Link href="https://catppuccin.com/">colors from Catppuccin</Link>
