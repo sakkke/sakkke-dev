@@ -7,7 +7,7 @@ const user = {
 
 export default function Footer() {
   return (
-    <footer className="grid grid-cols-[1fr_1fr_2fr] mt-[var(--global-line-height)]">
+    <footer className="grid grid-cols-2 md:grid-cols-[1fr_1fr_2fr] mt-[var(--global-line-height)]">
       <div>
         <nav>
           <h2>projects</h2>
@@ -103,7 +103,7 @@ export default function Footer() {
           </ul>
         </nav>
       </div>
-      <div>
+      <div className="col-span-2 md:col-span-1">
         <nav>
           <h2>information</h2>
           <p>
