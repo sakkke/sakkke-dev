@@ -41,6 +41,30 @@ footer ul>li::after {
   content: "-";
 }
 
+h1::before {
+  content: "# ";
+}
+
+h2::before {
+  content: "## ";
+}
+
+h3::before {
+  content: "### ";
+}
+
+h4::before {
+  content: "#### ";
+}
+
+h5::before {
+  content: "##### ";
+}
+
+h6::before {
+  content: "###### ";
+}
+
 .terminal-prompt::before {
   color: var(--ctp-macchiato-green);
   font-weight: bold;
