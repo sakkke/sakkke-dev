@@ -27,9 +27,7 @@ export default function RootLayout({
               <Header />
             </div>
           </div>
-          <div className="flex flex-col grow">
-            <div className="grow">{children}</div>
-          </div>
+          <div className="grow">{children}</div>
           <div className="bg-[var(--ctp-macchiato-mantle)]">
             <div className="container">
               <Footer />
