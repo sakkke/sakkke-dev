@@ -41,6 +41,10 @@ footer ul>li::after {
   content: "-";
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: var(--ctp-macchiato-peach);
+}
+
 h1::before {
   content: "# ";
 }
