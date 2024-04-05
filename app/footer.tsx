@@ -16,6 +16,9 @@ export default function Footer() {
       <p>
         <a href="https://vercel.com/">powered by Vercel</a>
       </p>
+      <p>
+        <a href="https://github.com/sakkke/sakkke-dev">view source on GitHub</a>
+      </p>
     </footer>
   );
 }
