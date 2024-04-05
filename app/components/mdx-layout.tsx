@@ -29,10 +29,12 @@ export default function MdxLayout({
           </span>
         </header>
       </div>
-      <div className="container">
-        <main>{children}</main>
-        <hr />
-        <ShareButtons />
+      <div>
+        <div className="container h-full">
+          <main>{children}</main>
+          <hr />
+          <ShareButtons />
+        </div>
       </div>
     </>
   );

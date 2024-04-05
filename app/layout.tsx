@@ -27,7 +27,7 @@ export default function RootLayout({
               <Header />
             </div>
           </div>
-          <div className="grow">{children}</div>
+          <div className="grid grid-rows-[auto_1fr] grow">{children}</div>
           <div className="bg-[var(--ctp-macchiato-mantle)]">
             <div className="container">
               <Footer />
