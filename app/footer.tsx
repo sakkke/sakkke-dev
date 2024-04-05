@@ -41,6 +41,9 @@ export default function Footer() {
               <Link href="/videos">videos</Link>
             </li>
             <li>
+              <Link href="/logos">logos</Link>
+            </li>
+            <li>
               <Link href="/illustrations">illustrations</Link>
             </li>
             <li>
