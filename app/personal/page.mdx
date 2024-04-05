@@ -1,0 +1,24 @@
+import MdxLayout from "../components/mdx-layout";
+
+export const metadata = {
+  title: "sakkke's personal information",
+  description: "sakkke's personal information.",
+  created: "2024-04-05",
+  updated: "2024-04-05",
+};
+
+- [about me](/about)
+- [skills](/skills)
+- [experience](/experience)
+
+export default function MDXPage({ children }) {
+  return (
+    <MdxLayout
+      created={metadata.created}
+      title={metadata.title}
+      updated={metadata.updated}
+    >
+      {children}
+    </MdxLayout>
+  );
+}
