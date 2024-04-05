@@ -12,7 +12,7 @@
   --progress-bar-fill: var(--ctp-macchiato-text);
   --code-bg-color: var(--ctp-macchiato-base);
 
-  --font-stack: "JetBrains Mono", serif;
+  --font-stack: "JetBrains Mono", sans-serif;
 }
 
 @keyframes cursor {
