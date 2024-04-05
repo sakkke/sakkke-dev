@@ -27,6 +27,14 @@ export default function Header() {
           </li>
           <li>
             <Link
+              href="/vlog"
+              className={`menu-item ${pathname === "/vlog" ? "active" : ""}`}
+            >
+              vlog
+            </Link>
+          </li>
+          <li>
+            <Link
               href="/about"
               className={`menu-item ${pathname === "/about" ? "active" : ""}`}
             >
