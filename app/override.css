@@ -33,6 +33,10 @@
   }
 }
 
+a {
+  color: var(--ctp-macchiato-blue);
+}
+
 footer ul>li {
   padding-left: calc(var(--global-space) * 2);
 }
