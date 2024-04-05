@@ -8,8 +8,79 @@ const user = {
 export default function Footer() {
   return (
     <footer className="grid grid-cols-[1fr_1fr_2fr]">
-      <div className="container"></div>
-      <div className="container"></div>
+      <div className="container">
+        <nav>
+          <h2>projects</h2>
+          <ul>
+            <li>
+              <Link href="/projects">projects</Link>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <h2>tools</h2>
+          <ul>
+            <li>
+              <Link href="/tools">tools</Link>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <h2>media</h2>
+          <ul>
+            <li>
+              <Link href="/blog">blog</Link>
+            </li>
+            <li>
+              <Link href="/vlog">vlog</Link>
+            </li>
+            <li>
+              <Link href="/music">music</Link>
+            </li>
+            <li>
+              <Link href="/illustrations">illustrations</Link>
+            </li>
+            <li>
+              <Link href="/photos">photos</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div className="container">
+        <nav>
+          <h2>contact</h2>
+          <ul>
+            <li>
+              <Link href="/contact">contact</Link>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <h2>personal</h2>
+          <ul>
+            <li>
+              <Link href="/about">about me</Link>
+            </li>
+            <li>
+              <Link href="/skills">skills</Link>
+            </li>
+            <li>
+              <Link href="/experience">experience</Link>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <h2>social</h2>
+          <ul>
+            <li>
+              <Link href="/social">social</Link>
+            </li>
+            <li>
+              <Link href="/community">community</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <div className="container">
         <nav>
           <h2>information</h2>
