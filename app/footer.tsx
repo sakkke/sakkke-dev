@@ -115,6 +115,9 @@ export default function Footer() {
             <li>
               <Link href="/schedule">schedule</Link>
             </li>
+            <li>
+              <Link href="/ai">AI</Link>
+            </li>
           </ul>
         </nav>
         <nav>
