@@ -17,10 +17,21 @@ export default function Tool() {
     setText([...text.split("\n")].sort().reverse().join("\n"));
   };
 
+  const shuffled = <T extends unknown>(array: T[]): T[] =>
+    array.sort(() => Math.random() - 0.5);
+
+  const handleShuffle = () => {
+    setText(shuffled([...text.split("\n")]).join("\n"));
+  };
+
   return (
     <>
       <details>
         <summary>changelog</summary>
+        <h2>0.3.0</h2>
+        <ul>
+          <li>add &apos;shuffle sort&apos; feature</li>
+        </ul>
         <h2>0.2.0</h2>
         <ul>
           <li>add changelog</li>
@@ -46,6 +57,7 @@ export default function Tool() {
       <ButtonGroup>
         <PrimaryButton onClick={handleSort}>sort</PrimaryButton>
         <Button onClick={handleReverse}>reverse</Button>
+        <Button onClick={handleShuffle}>shuffle</Button>
       </ButtonGroup>
     </>
   );

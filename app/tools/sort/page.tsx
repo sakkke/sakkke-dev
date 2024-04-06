@@ -12,8 +12,8 @@ export const metadata: Metadata & {
   title: "sakkke sort",
   description: "'sakkke sort' is sort tool. it sorts lines of text.",
   created: "2024-04-04",
-  updated: "2024-04-05",
-  version: "0.2.0",
+  updated: "2024-04-06",
+  version: "0.3.0",
 };
 
 export default function Sort() {
