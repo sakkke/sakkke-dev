@@ -68,6 +68,14 @@ export default function Footer() {
             </li>
           </ul>
         </nav>
+        <nav>
+          <h2>sports</h2>
+          <ul>
+            <li>
+              <Link href="/sports">sports</Link>
+            </li>
+          </ul>
+        </nav>
       </div>
       <div>
         <nav>
