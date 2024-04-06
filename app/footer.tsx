@@ -104,6 +104,9 @@ export default function Footer() {
               <Link href="/about">about me</Link>
             </li>
             <li>
+              <Link href="/brands">brands</Link>
+            </li>
+            <li>
               <Link href="/skills">skills</Link>
             </li>
             <li>
