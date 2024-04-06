@@ -47,6 +47,9 @@ export default function Footer() {
               <Link href="/logos">logos</Link>
             </li>
             <li>
+              <Link href="/3d">3D computer graphics</Link>
+            </li>
+            <li>
               <Link href="/illustrations">illustrations</Link>
             </li>
             <li>
