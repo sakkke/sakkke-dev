@@ -109,6 +109,9 @@ export default function Footer() {
             <li>
               <Link href="/experience">experience</Link>
             </li>
+            <li>
+              <Link href="/schedule">schedule</Link>
+            </li>
           </ul>
         </nav>
         <nav>
