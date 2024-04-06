@@ -82,6 +82,9 @@ export default function Footer() {
             <li>
               <Link href="/cooking">cooking</Link>
             </li>
+            <li>
+              <Link href="/recipes">recipes</Link>
+            </li>
           </ul>
         </nav>
       </div>
