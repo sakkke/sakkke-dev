@@ -24,10 +24,21 @@ export default function Tool() {
     setText(shuffled([...text.split("\n")]).join("\n"));
   };
 
+  const unique = <T extends unknown>(array: T[]): T[] =>
+    Array.from(new Set(array));
+
+  const handleUnique = () => {
+    setText(unique(text.split("\n")).join("\n"));
+  };
+
   return (
     <>
       <details>
         <summary>changelog</summary>
+        <h2>0.4.0</h2>
+        <ul>
+          <li>add &apos;unique&apos; feature</li>
+        </ul>
         <h2>0.3.0</h2>
         <ul>
           <li>add &apos;shuffle sort&apos; feature</li>
@@ -58,6 +69,9 @@ export default function Tool() {
         <PrimaryButton onClick={handleSort}>sort</PrimaryButton>
         <Button onClick={handleReverse}>reverse</Button>
         <Button onClick={handleShuffle}>shuffle</Button>
+      </ButtonGroup>
+      <ButtonGroup>
+        <Button onClick={handleUnique}>unique</Button>
       </ButtonGroup>
     </>
   );
