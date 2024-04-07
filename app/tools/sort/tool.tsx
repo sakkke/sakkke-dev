@@ -21,7 +21,7 @@ export default function Tool() {
     array.sort(() => Math.random() - 0.5);
 
   const handleShuffle = () => {
-    setText(shuffled([...text.split("\n")]).join("\n"));
+    setText(shuffled(text.split("\n")).join("\n"));
   };
 
   const unique = <T extends unknown>(array: T[]): T[] =>
