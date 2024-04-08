@@ -14,7 +14,7 @@ export default function Tool() {
   };
 
   const handleReverse = () => {
-    setText([...text.split("\n")].sort().reverse().join("\n"));
+    setText([...text.split("\n")].reverse().join("\n"));
   };
 
   const shuffled = <T extends unknown>(array: T[]): T[] =>
@@ -35,6 +35,12 @@ export default function Tool() {
     <>
       <details>
         <summary>changelog</summary>
+        <h2>0.5.0</h2>
+        <ul>
+          <li>
+            change from &apos;reverse sort&apos; to just &apos;reverse&apos;
+          </li>
+        </ul>
         <h2>0.4.0</h2>
         <ul>
           <li>add &apos;unique&apos; feature</li>
@@ -67,10 +73,10 @@ export default function Tool() {
       </div>
       <ButtonGroup>
         <PrimaryButton onClick={handleSort}>sort</PrimaryButton>
-        <Button onClick={handleReverse}>reverse</Button>
         <Button onClick={handleShuffle}>shuffle</Button>
       </ButtonGroup>
       <ButtonGroup>
+        <Button onClick={handleReverse}>reverse</Button>
         <Button onClick={handleUnique}>unique</Button>
       </ButtonGroup>
     </>
