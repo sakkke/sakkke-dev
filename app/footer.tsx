@@ -167,7 +167,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <strong>X</strong>:{" "}
+              <strong>X (Twitter)</strong>:{" "}
               <Link href="https://twitter.com/sakkke_dev">@sakkke_dev</Link>
             </li>
           </ul>
