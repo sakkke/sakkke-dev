@@ -161,13 +161,13 @@ export default function Footer() {
           </p>
           <ul>
             <li>
-              <strong>Bluesky</strong>:{" "}
+              <strong>🦋 Bluesky</strong>:{" "}
               <Link href="https://bsky.app/profile/sakkke.dev">
                 @sakkke.dev
               </Link>
             </li>
             <li>
-              <strong>X (Twitter)</strong>:{" "}
+              <strong>🐦 X (Twitter)</strong>:{" "}
               <Link href="https://twitter.com/sakkke_dev">@sakkke_dev</Link>
             </li>
           </ul>
