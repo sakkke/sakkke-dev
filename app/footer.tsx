@@ -159,6 +159,18 @@ export default function Footer() {
             copyright &copy; 2024-present {user.name} &lt;
             <Link href={`mailto:${user.email}`}>{user.email}</Link>&gt;
           </p>
+          <ul>
+            <li>
+              <strong>Bluesky</strong>:{" "}
+              <Link href="https://bsky.app/profile/sakkke.dev">
+                @sakkke.dev
+              </Link>
+            </li>
+            <li>
+              <strong>X</strong>:{" "}
+              <Link href="https://twitter.com/sakkke_dev">@sakkke_dev</Link>
+            </li>
+          </ul>
         </nav>
         <nav>
           <h2>credits</h2>
