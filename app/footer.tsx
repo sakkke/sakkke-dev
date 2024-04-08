@@ -16,7 +16,7 @@ export default function Footer() {
               <Link href="/projects">projects</Link>
             </li>
             <li>
-              <Link href="/servers">servers</Link>
+              <Link href="/servers">🚧 servers</Link>
             </li>
           </ul>
         </nav>
@@ -32,31 +32,31 @@ export default function Footer() {
           <h2>media</h2>
           <ul>
             <li>
-              <Link href="/blog">blog</Link>
+              <Link href="/blog">🚧 blog</Link>
             </li>
             <li>
-              <Link href="/vlog">vlog</Link>
+              <Link href="/vlog">🚧 vlog</Link>
             </li>
             <li>
-              <Link href="/music">music</Link>
+              <Link href="/music">🚧 music</Link>
             </li>
             <li>
-              <Link href="/videos">videos</Link>
+              <Link href="/videos">🚧 videos</Link>
             </li>
             <li>
-              <Link href="/logos">logos</Link>
+              <Link href="/logos">🚧 logos</Link>
             </li>
             <li>
-              <Link href="/3d">3D computer graphics</Link>
+              <Link href="/3d">🚧 3D computer graphics</Link>
             </li>
             <li>
-              <Link href="/illustrations">illustrations</Link>
+              <Link href="/illustrations">🚧 illustrations</Link>
             </li>
             <li>
-              <Link href="/podcast">podcast</Link>
+              <Link href="/podcast">🚧 podcast</Link>
             </li>
             <li>
-              <Link href="/photos">photos</Link>
+              <Link href="/photos">🚧 photos</Link>
             </li>
           </ul>
         </nav>
@@ -64,7 +64,7 @@ export default function Footer() {
           <h2>games</h2>
           <ul>
             <li>
-              <Link href="/games">games</Link>
+              <Link href="/games">🚧 games</Link>
             </li>
           </ul>
         </nav>
@@ -72,7 +72,7 @@ export default function Footer() {
           <h2>sports</h2>
           <ul>
             <li>
-              <Link href="/sports">sports</Link>
+              <Link href="/sports">🚧 sports</Link>
             </li>
           </ul>
         </nav>
@@ -80,10 +80,10 @@ export default function Footer() {
           <h2>cooking</h2>
           <ul>
             <li>
-              <Link href="/cooking">cooking</Link>
+              <Link href="/cooking">🚧 cooking</Link>
             </li>
             <li>
-              <Link href="/recipes">recipes</Link>
+              <Link href="/recipes">🚧 recipes</Link>
             </li>
           </ul>
         </nav>
@@ -104,7 +104,7 @@ export default function Footer() {
               <Link href="/about">about me</Link>
             </li>
             <li>
-              <Link href="/brands">brands</Link>
+              <Link href="/brands">🚧 brands</Link>
             </li>
             <li>
               <Link href="/skills">skills</Link>
@@ -113,10 +113,10 @@ export default function Footer() {
               <Link href="/experience">experience</Link>
             </li>
             <li>
-              <Link href="/schedule">schedule</Link>
+              <Link href="/schedule">🚧 schedule</Link>
             </li>
             <li>
-              <Link href="/ai">AI</Link>
+              <Link href="/ai">🚧 AI</Link>
             </li>
           </ul>
         </nav>
