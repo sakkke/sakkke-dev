@@ -38,7 +38,7 @@ export default function Footer() {
               <Link href="/vlog">🚧 vlog</Link>
             </li>
             <li>
-              <Link href="/music">🚧 music</Link>
+              <Link href="/music">music</Link>
             </li>
             <li>
               <Link href="/videos">🚧 videos</Link>
